@@ -1,0 +1,1 @@
+{ mn=$1; mx=$1; for (i=2; i<=NF; i++) { mn = (mn < $i ? mn : $i); mx = (mx > $i ? mx : $i);} r += mx - mn;} END { print "🎄", r; }

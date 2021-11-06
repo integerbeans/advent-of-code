@@ -1,0 +1,1 @@
+{for (happy=1; happy<=NF; happy++) {for (holidays=happy+1; holidays<=NF; holidays++) {if ($happy % $holidays == 0) {folks += $happy / $holidays;} else if ($holidays % $happy == 0) {folks += $holidays / $happy;}}}} END { print "🎄", folks; }
