@@ -1,3 +1,7 @@
 # My Advent of Code Repo
 
-My collection of Advent of Code solutions.
+A collection of Advent of Code solutions, so far containing some solutions to:
+
+* Advent of Code 2015
+* Advent of Code 2017
+* Advent of Code 2020
