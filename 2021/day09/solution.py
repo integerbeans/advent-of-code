@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import numpy,collections
 from scipy.ndimage import minimum_filter as mf, label as l
 
